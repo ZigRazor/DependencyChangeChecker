@@ -8,6 +8,8 @@ packages = [{include = "dependency_change_checker"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+gitpython = "^3.1.31"
+requests = "^2.29.0"
 
 
 [build-system]
