@@ -1,0 +1,18 @@
+name: "DependencyChangeChecker"
+author: "Zig Razor"
+description: "A GitHub Action that performs a check of Dependency Changes on a Pull Request"
+branding:
+  icon: "bell"
+  color: "red"
+
+inputs:
+ github-token:
+    description: 'The default GitHub Token (secrets.GITHUB_TOKEN), used to publish comments as a bot. No need to assign a value for this input.'
+    required: true
+    default: ${{ github.token }}
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  env:
+    ACCESS_TOKEN: ${{ inputs.github-token }}

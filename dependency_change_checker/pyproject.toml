@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dependency-change-checker"
+version = "0.1.0"
+description = ""
+authors = ["ZigRazor <zigrazor@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dependency_change_checker"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
