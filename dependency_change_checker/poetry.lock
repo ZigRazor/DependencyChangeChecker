@@ -140,6 +140,17 @@ files = [
 ]
 
 [[package]]
+name = "jsonlib"
+version = "1.6.1"
+description = "JSON serializer/deserializer for Python"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "jsonlib-1.6.1.tar.gz", hash = "sha256:6eebdb41b1671437107c747c18dbbaea2c41c2ef3b7b551e6c65206a125538bf"},
+]
+
+[[package]]
 name = "requests"
 version = "2.29.0"
 description = "Python HTTP for Humans."
@@ -193,4 +204,4 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "c0d3d4f6889301e40aafab272c1fa8f7aed3d8f610defba56207e5bc8642e6f8"
+content-hash = "2135216d99711f4796560671e4cf816eead30b2a8dbe9d9c4b258c6efea635e2"
